@@ -1,18 +1,18 @@
 **Matrix**
 A matrix is a 2 dimensional array, can be represented as a list of lists in python 3.<br>
-this list of lists follows several rules so it can represent a matrix:
-all rows have the same amount of values, all columns have the same amount of values, all items are in the same data type, indexing starts at zero.
+this list of lists follows several rules so it can represent a matrix:<br>
+all rows have the same amount of values, all columns have the same amount of values, all items are in the same data type, indexing starts at zero.<br>
 
 Example:
 ```python:
 my_matrix = [[0,1,2,3],[4,5,6,7]] #this is a matrix
 ```
 **List Comprehension**
-List Comprehension is the method to concisely create lists.
-The syntax of list comprehension is:
-1.A Square Bracket containing an expression that describes the list.
-2.One or more For clause to explain its members.
-3.Then a zero or more if clauses depending on the complexity of the list.
+List Comprehension is the method to concisely create lists.<br>
+The syntax of list comprehension is:<br>
+1.A Square Bracket containing an expression that describes the list.<br>
+2.One or more For clause to explain its members.<br>
+3.Then a zero or more if clauses depending on the complexity of the list.<br>
 
 Example:
 ```python:
