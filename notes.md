@@ -75,8 +75,15 @@ set_a.add(20)
 set_b = {1, 2, 3, 5, 7, 11, 13, 17, 19} # non empty set using {}
 set_c = {x for x in range(1, 11) if x % 2 == 1} #set comprehension
 set_d = (set_a | set_c) & set_b # set operators
-print(7 in set_d) #use membership operators to check if 7 is in the set
-
+print(7 in set_d) #use membership operators to check if 7 is in the set, this prints True
 ```
 
 **Disctionaries**<br>
+Dictionary (Associative Array, map, symbol table) is a data type that stores a collection of (key, value) pairs, such that each possible key appears at most once in the collection.<br>
+To create a dictionary, use {}, and use : to seperate key-value pairs, with the key on the left side of the :, and the value on the right side. to seperate different pairs, use commas.<br>
+To index dictionaries, use the key as the index for the value.<br>
+To add a newe pair to the disctionary, use the same format as indexing a pair<br>
+To remove a pair from a disctionary, use the del keyword<br>
+Example:
+```python:
+```
