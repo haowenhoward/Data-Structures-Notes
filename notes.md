@@ -56,6 +56,27 @@ a = range(1,100) #iterable sequence
 b = list(map(add_1, a)) #create new sequence using map function
 c = list(filter(greater_than_10, b)) #create new sequence using filter function
 
-**Sets**
+**Sets**<br>
+A set is an unordered collection with no duplicate elements <br>
+To define a non empty set use {}, and seperate items using commas<br>
+To define an empty set, use set()<br>
+Another alternative is to define a set using set comprehension, similar to list comprehension<br>
+to check if an item is inside a set, use the in operator<br>
+To add/remove items from a set, use the add() method and remove() method<br>
+In addition one can use set operators for complex calculations.<br>
+Example:
+```python:
+set_a = set() # empty set using set()
+set_a.add(16) # add elements to set
+set_a.add(17)
+set_a.add(18)
+set_a.add(19)
+set_a.add(20)
+set_b = {1, 2, 3, 5, 7, 11, 13, 17, 19} # non empty set using {}
+set_c = {x for x in range(1, 11) if x % 2 == 1} #set comprehension
+set_d = (set_a | set_c) & set_b # set operators
+print(7 in set_d) #use membership operators to check if 7 is in the set
 
-**Disctionaries**
+```
+
+**Disctionaries**<br>
