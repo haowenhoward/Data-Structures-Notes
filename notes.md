@@ -22,6 +22,24 @@ my_list = [x for x in range(101) if x % 2 == 0]
 my_other_list = [x for x in range(0,101,2)]
 ```
 **Tuples**
+A tuple is an immutable data type, that:<br>
+- is immutable<br>
+- allow different datatypes as items<br>
+- is iterable<br>
+- is nestable<br>
+
+Tuples are declared with parenthesis, ()<br>
+items are seperated with commas<br>
+Tuples are indexable and slicable similar to lists, using square brackets. <br>
+Tuples are also responsible for packing and unpacking variables for python 3<br>
+Example:
+```python:
+my_tuple = (1, "apple", 2, "banana", 3.5)
+a, b, c, d = my_tuple[0], my_tuple[1], my_tuple[2], my_tuple[3:] #unpacking using indexing and slicing  
+for item in d: #since d was my_tuple sliced, it is still a tuple, therefore iterable
+    print(item)
+another tuple = a, b, c #packing
+```
 
 **Map & Filters**
 
