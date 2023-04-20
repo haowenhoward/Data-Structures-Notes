@@ -86,4 +86,8 @@ To add a newe pair to the disctionary, use the same format as indexing a pair<br
 To remove a pair from a disctionary, use the del keyword<br>
 Example:
 ```python:
+my_dict = {"apple" : "red", "banana" : "yellow", "orange" : "orange"} #creating a dictionary
+b = my_dict["apple"] # indexing dictionary
+my_dict["tomato"] = "red" # add new key-value pairs to dictionaries
+del my_dict["banana"] #delete items from dictionaries
 ```
