@@ -1,4 +1,4 @@
-**Matrix**
+**Matrix**<br>
 A matrix is a 2 dimensional array, can be represented as a list of lists in python 3.<br>
 this list of lists follows several rules so it can represent a matrix:<br>
 all rows have the same amount of values, all columns have the same amount of values, all items are in the same data type, indexing starts at zero.<br>
@@ -7,7 +7,7 @@ Example:
 ```python:
 my_matrix = [[0,1,2,3],[4,5,6,7]] #this is a matrix
 ```
-**List Comprehension**
+**List Comprehension**<br>
 List Comprehension is the method to concisely create lists.<br>
 The syntax of list comprehension is:<br>
 1.A Square Bracket containing an expression that describes the list.<br>
@@ -21,7 +21,7 @@ my_list = [x for x in range(101) if x % 2 == 0]
 #or
 my_other_list = [x for x in range(0,101,2)]
 ```
-**Tuples**
+**Tuples**<br>
 A tuple is an immutable data type, that:<br>
 - is immutable<br>
 - allow different datatypes as items<br>
@@ -41,7 +41,20 @@ for item in d: #since d was my_tuple sliced, it is still a tuple, therefore iter
 another tuple = a, b, c #packing
 ```
 
-**Map & Filters**
+**Map & Filters** <br>
+The map function applies a function to every item in an iterable data type.
+the format is map(function_name, sequence)
+The filter function filters out items from a data set that meets a certain condition.
+the format is filter(bool_returning_function, sequence)
+Example:
+def add_1(n): #function
+    return n + 1
+def greater_than_10(n): #bool_returning_function
+    return n > 10
+
+a = range(1,100) #iterable sequence
+b = list(map(add_1, a)) #create new sequence using map function
+c = list(filter(greater_than_10, b)) #create new sequence using filter function
 
 **Sets**
 
