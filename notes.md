@@ -42,11 +42,12 @@ another tuple = a, b, c #packing
 ```
 
 **Map & Filters** <br>
-The map function applies a function to every item in an iterable data type.
-the format is map(function_name, sequence)
-The filter function filters out items from a data set that meets a certain condition.
-the format is filter(bool_returning_function, sequence)
+The map function applies a function to every item in an iterable data type.<br>
+the format is map(function_name, sequence)<br>
+The filter function filters out items from a data set that meets a certain condition.<br>
+the format is filter(bool_returning_function, sequence)<br>
 Example:
+```python:
 def add_1(n): #function
     return n + 1
 def greater_than_10(n): #bool_returning_function
@@ -55,7 +56,7 @@ def greater_than_10(n): #bool_returning_function
 a = range(1,100) #iterable sequence
 b = list(map(add_1, a)) #create new sequence using map function
 c = list(filter(greater_than_10, b)) #create new sequence using filter function
-
+```
 **Sets**<br>
 A set is an unordered collection with no duplicate elements <br>
 To define a non empty set use {}, and seperate items using commas<br>
